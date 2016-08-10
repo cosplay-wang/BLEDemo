@@ -22,6 +22,9 @@ import java.util.List;
 import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+    /**
+     * 要求在20以上。5.0
+     */
     final String SPP_UUID = "00001101-0000-1000-8000-00805f9b34fb";
     UUID uuid = UUID.fromString(SPP_UUID);
     BluetoothAdapter btAdapter;
