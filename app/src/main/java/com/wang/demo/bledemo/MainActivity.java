@@ -23,7 +23,7 @@ import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     /**
-     * 要求在20以上。5.0
+     * 要求在20以上。5.0，在18以上可以，蓝牙4.0
      */
     final String SPP_UUID = "00001101-0000-1000-8000-00805f9b34fb";
     UUID uuid = UUID.fromString(SPP_UUID);
